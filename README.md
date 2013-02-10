@@ -1,11 +1,10 @@
-node-redis
-==========
+# node-redis
 
+## Description 
 A redis client.
 
-Usage
------
-
+## Usage
+```
     var redis = require('node-redis')
 
     var client = redis.createClient(port, host, auth)
@@ -23,4 +22,4 @@ Usage
     client.unsubscribe('channel')
 
     client.end()
-
+```
